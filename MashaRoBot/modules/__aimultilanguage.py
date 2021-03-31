@@ -7,7 +7,7 @@ import MashaRoBot.modules.sql.chatbot_sql as ly
 from google_trans_new import google_translator
 translator = google_translator()
 import requests
-
+import random
 
 from telethon import events
 from MashaRoBot.events import register
@@ -119,7 +119,7 @@ async def _(event):
            await event.reply(pro)
    except CFError as e:
            print(e)
-  elif "Ann" in result:
+  elif "My name is Jessicia." in result:
    pro = "My name is Lily."
    try:
       async with tbot.action(event.chat_id, 'typing'):
