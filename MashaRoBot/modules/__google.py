@@ -260,7 +260,7 @@ async def apk(e):
         ).replace(" out of ", " / ").replace(" stars", "", 1).replace(
             " stars", " ⭐"
         ).replace(
-            "five", " 5"
+            "five", "5"
         )
         app_details += (
             "\n<code>Features:</code> <a href='"
