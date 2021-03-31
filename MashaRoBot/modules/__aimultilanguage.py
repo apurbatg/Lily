@@ -13,8 +13,8 @@ from telethon import events
 from MashaRoBot.events import register
 
 string = (
-  "I belong To Mr_dark_prince!",
-  "Im Fairly Yound And Was Made by mr_dark_prince!",
+  "I'm girl friend of Jason.",
+  "I cute and fairly young. I was made by Jason.",
 )
 
 
@@ -78,8 +78,8 @@ async def _(event):
         return
   prof = str(event.text)
   
-  if not "Masha" in prof:
-    if not "masha" in prof:
+  if not "Lily" in prof:
+    if not "Lily" in prof:
       reply_msg = await event.get_reply_message()
       if not reply_msg.sender_id == BOT_ID:
            return
@@ -120,7 +120,7 @@ async def _(event):
    except CFError as e:
            print(e)
   elif "Ann" in result:
-   pro = "Yeah, My name is Masha"
+   pro = "My name is Lily."
    try:
       async with tbot.action(event.chat_id, 'typing'):
            await event.reply(pro)
