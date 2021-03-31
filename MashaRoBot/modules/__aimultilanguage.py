@@ -119,7 +119,7 @@ async def _(event):
            await event.reply(pro)
    except CFError as e:
            print(e)
-  elif "My name is Jessicia." in result:
+  elif "My name is Jessica." in result:
    pro = "My name is Lily."
    try:
       async with tbot.action(event.chat_id, 'typing'):
