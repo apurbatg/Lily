@@ -1,4 +1,5 @@
 import time
+import asyncio
 from telethon import events
 
 from MashaRoBot import telethn
@@ -44,7 +45,10 @@ async def purge_messages(event):
         pass
     time_ = time.perf_counter() - start
     text = f"Purged Successfully in {time_:0.2f} Second(s)"
-    await event.respond(text, parse_mode="markdown")
+    ps = await event.respond(text, parse_mode="markdown")
+    
+    await asyncio.sleep(4)
+    await ps.delete()
 
 
 async def delete_messages(event):
