@@ -81,7 +81,7 @@ I'm here to help you manage your groups! Hit *📚Commands* button below to find
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD LILY TO YOUR GROUP ➕️", url="t.me/MissLilyRobot?startgroup=true"),
+            text="➕️ ADD LILY TO YOUR GROUP ➕️", url="t.me/AsunaYuki_robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
