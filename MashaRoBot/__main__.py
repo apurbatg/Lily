@@ -81,7 +81,7 @@ I'm here to help you manage your groups! Hit *😊Commands* button below to find
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD LILY TO YOUR GROUP ➕️", url="t.me/AsunaYuki_robot?startgroup=true"),
+            text="➕️ ADD Asuna TO YOUR GROUP ➕️", url="t.me/AsunaYuki_robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="😊 Off Topic", url="https://t.me/animesecretchats"),
