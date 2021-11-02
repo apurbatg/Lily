@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Heya! My name is Asuna.
-I'm here to help you manage your groups! Hit *📚Commands* button below to find out more about how to use me to my full potential. 
+I'm here to help you manage your groups! Hit *😊Commands* button below to find out more about how to use me to my full potential. 
 """
 
 buttons = [
