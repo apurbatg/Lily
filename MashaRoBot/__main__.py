@@ -84,14 +84,14 @@ buttons = [
             text="➕️ ADD LILY TO YOUR GROUP ➕️", url="t.me/AsunaYuki_robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
-        InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="ℹ️ Off Topic", url="https://t.me/animesecretchats"),
+        InlineKeyboardButton(text="� COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💾 Black X", url="https://t.me/Blackxofficial"),
+            text="� Black X", url="https://t.me/Blackxofficial"),
         InlineKeyboardButton(
-            text="🔊 Channel", url="https://t.me/Infinity_BOTs"
+            text="� Channel", url="https://t.me/asuna_updates"
         ),
     ],
 ]
