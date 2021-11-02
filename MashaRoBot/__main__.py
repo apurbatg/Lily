@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Heya! My name is *Asuna*.
+Heya! My name is Asuna.
 I'm here to help you manage your groups! Hit *📚Commands* button below to find out more about how to use me to my full potential. 
 """
 
@@ -84,14 +84,14 @@ buttons = [
             text="➕️ ADD LILY TO YOUR GROUP ➕️", url="t.me/AsunaYuki_robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text=" Off Topic", url="https://t.me/animesecretchats"),
-        InlineKeyboardButton(text=" COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="😊 Off Topic", url="https://t.me/animesecretchats"),
+        InlineKeyboardButton(text="😊 COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text=" Black X", url="https://t.me/Blackxofficial"),
+            text="😊 Black X", url="https://t.me/Blackxofficial"),
         InlineKeyboardButton(
-            text=" Channel", url="https://t.me/asuna_updates"
+            text="😊 Channel", url="https://t.me/asuna_updates"
         ),
     ],
 ]
