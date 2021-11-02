@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Heya! (https://github.com/war-legend/AmeliaRobot), My name is Asuna.
+Heya! (https://telegra.ph/file/0f21bb73b96ca9c077b8b.jpg), My name is Asuna.
 I'm here to help you manage your groups! Hit *😊Commands* button below to find out more about how to use me to my full potential. 
 """
 
