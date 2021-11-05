@@ -31,6 +31,7 @@ git+https://github.com/starry69/python-markdown2.git
 wikipedia
 telethon
 telegraph
+fontTools
 heroku3
 spamwatch
 alphabet_detector
