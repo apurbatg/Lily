@@ -29,6 +29,7 @@ regex
 bleach
 git+https://github.com/starry69/python-markdown2.git
 wikipedia
+motor
 telethon
 telegraph
 fontTools
